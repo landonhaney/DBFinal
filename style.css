@@ -1,0 +1,117 @@
+* {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.pageClick {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+table {
+  margin-top: 10%;
+  border: 2px solid white;
+  border-radius: 0.3rem;
+  align-items: center;
+  padding: 0.8rem;
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+tr {
+  padding: 0.5rem;
+}
+
+td {
+  border: 2px solid white;
+  border-radius: 0.3rem;
+  text-align: left;
+  min-width: fit-content;
+  padding: 0.2rem 0.4rem;
+  max-height: fit-content;
+}
+th {
+  background: linear-gradient(
+    90deg,
+    hsl(200, 41%, 34%),
+    hsl(238, 100%, 79%),
+    hsl(221, 100%, 78%)
+  );
+  text-align: center;
+  color: white;
+  border-radius: 0.3rem;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  padding: 0.5rem;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: black;
+  border: 2px solid white;
+  padding: 0.3rem;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.center_message {
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  font-size: 1rem;
+}
+.btn {
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: darkgray;
+}
+.link {
+  transition: 0.5s ease;
+}
+.link:hover {
+  background-color: darkgray;
+}
+
+.copyright {
+  position: relative;
+  height: 10%;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+#table3 td {
+  font-size: 1rem;
+}
+
+.home_page {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* height: 50vh; */
+  gap: 50px;
+  padding-top: 2rem;
+}
+
+.homebtn {
+  border: 1px white solid;
+  width: 320px;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
